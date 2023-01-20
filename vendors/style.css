@@ -20,7 +20,7 @@
 .sidebar .logo-details {
     height: 80px;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
     align-items: center;
 }
 
@@ -374,27 +374,37 @@ nav .profile-details i {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .sidebar {
         width: 0;
     }
     .sidebar.active {
-        width: 60px;
+        width: 80px;
     }
     .home-section {
         width: 100%;
         left: 0;
     }
     .sidebar.active~.home-section {
-        left: 60px;
-        width: calc(100% - 60px);
+        left: 80px;
+        width: calc(100% - 80px);
     }
     .home-section nav {
         width: 100%;
         left: 0;
     }
     .sidebar.active~.home-section nav {
-        left: 60px;
-        width: calc(100% - 60px);
+        left: 80px;
+        width: calc(100% - 80px);
     }
+}
+
+.update-table a {
+    text-decoration: none;
+}
+
+.update-table {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
 }
