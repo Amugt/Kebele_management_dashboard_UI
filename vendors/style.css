@@ -200,7 +200,7 @@ nav .profile-details i {
 
 .home-section .home-content {
     position: relative;
-    padding-top: 104px;
+    padding-top: 100px;
 }
 
 .home-content .overview-boxes {
@@ -407,4 +407,24 @@ nav .profile-details i {
     display: flex;
     gap: 10px;
     flex-wrap: nowrap;
+}
+
+.show-detail {
+    padding-top: 20px;
+}
+
+.detail-photo {
+    height: 150px;
+    width: 150px;
+}
+
+.detail-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
