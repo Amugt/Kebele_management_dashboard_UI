@@ -428,3 +428,7 @@ nav .profile-details i {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+
+.register-card {
+    max-width: 500px;
+}
